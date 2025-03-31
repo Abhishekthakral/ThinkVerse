@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss";
+
+*{
+  font-family:"Open Sans";
+}
+
+@keyframes fadeEffect {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+/* Apply the animation to an text */
+.fade-text {
+  width: auto;
+  height: auto;
+  animation: fadeEffect 3s infinite;
+}
